@@ -22,8 +22,6 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthorization();
-
 app.MapGet("/hello", () => "Hello guy! this is sample project Idsr4 & minimal-API NET6 implementation for KISS Principle");
 
 app.Run();

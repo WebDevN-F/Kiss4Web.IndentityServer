@@ -1,3 +1,4 @@
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/WebDevN-F/Kiss4Web.IndentityServer/blob/main/LICENSE)
 [![Build status](https://ci.appveyor.com/api/projects/status/mjvnap1mkhds82hu?svg=true)](https://ci.appveyor.com/project/ngnam/kiss4web-indentityserver)
 
 ## A sample project Idsr4 & minimal-API NET6 implementation for KISS Principle

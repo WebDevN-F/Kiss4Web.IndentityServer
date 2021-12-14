@@ -31,4 +31,3 @@ If you find this project useful — or just feeling generous, consider buying me a
 |               |               |
 | ------------- |:-------------:|
 | <a href="https://www.paypal.me/ngnam39"><img src="https://github.com/ngnam/Resources/blob/master/donate_paypal.svg" height="40"></a> | [![BMC](https://github.com/ngnam/Resources/blob/master/donate_coffee.png)](https://www.buymeacoffee.com/ngnam) |
- 

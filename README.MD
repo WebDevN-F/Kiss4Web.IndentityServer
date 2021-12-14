@@ -9,13 +9,13 @@
 
 ### Some things will implements
 
-- A IdentityServer is middleware that adds the spec compliant OpenID Connect and OAuth 2.0 endpoints to an arbitrary ASP.NET Core application. [Big picture](https://identityserver4.readthedocs.io/en/release/intro/big_picture.html#how-identityserver4-can-help)
-- A Client JS Authenticate with openIDClient [OpenID-passport](http://www.passportjs.org/packages/openid-client/)
-- idsr4database will store in a In-memory Database [In-memory Database](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/in-memory-databases)
-- A generate repository pattern access to idsr4database
+[x] A IdentityServer is middleware that adds the spec compliant OpenID Connect and OAuth 2.0 endpoints to an arbitrary ASP.NET Core application. [Big picture](https://identityserver4.readthedocs.io/en/release/intro/big_picture.html#how-identityserver4-can-help)
+[] A Client JS Authenticate with openIDClient [OpenID-passport](http://www.passportjs.org/packages/openid-client/)
+[x] idsr4database will store in a In-memory Database [In-memory Database](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/in-memory-databases)
+[] A generate repository pattern access to idsr4database
 - When you don't alway must register for every new service, I can use autofac to scan and register types. [Autofac](https://autofac.readthedocs.io/en/latest/register/scanning.html)
 - Which one to use Lifestyle [AddTransient - (lightweight, no-state), addScoped - state, addSingleton-reused everywhere](https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences)
-- Register DI use [SimpleInjection](https://docs.simpleinjector.org/en/latest/quickstart.html)
+[x] Register DI use [SimpleInjection](https://docs.simpleinjector.org/en/latest/quickstart.html)
 - Injecting service with different lifetimes into another
 	
 	+ Never inject Scoped & Transient services into Singleton service. (This effectively converts the transient or scoped service into the singleton.)

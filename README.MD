@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/p3iet9wrmg8jxlmx?svg=true)](https://ci.appveyor.com/project/jincod/aspnet5demoapp)
+
 ## A sample project Idsr4 & minimal-API NET6 implementation for KISS Principle
 
 - Nguyen Van Nam
@@ -17,6 +19,8 @@
 	
 	+ Never inject Scoped & Transient services into Singleton service. (This effectively converts the transient or scoped service into the singleton.)
 	+ Never inject Transient services into scoped service (This converts the transient service into the scoped.)
+
+- [The global.json file allows you to define which .NET SDK version is used when you run .NET CLI commands](https://docs.microsoft.com/en-us/dotnet/core/tools/global-json?tabs=netcore3x)
 
 ### Conclusion
 Create A WebAPI helps to your applications Sign Sign On, Authentication with a OpenID service side or a OAuth 2.0 for providers local account và externals other.

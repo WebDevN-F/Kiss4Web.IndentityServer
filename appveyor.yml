@@ -1,0 +1,40 @@
+image: Visual Studio 2022
+
+install:
+  - ps: Invoke-WebRequest "https://dot.net/v1/dotnet-install.ps1" -OutFile "./dotnet-install.ps1"
+  - ps: ./dotnet-install.ps1 -JsonFile global.json
+
+#init:
+#- git config --global core.autocrlf true
+
+environment:
+  DOTNET_VERSION: "6.0.100"
+
+build_script:
+#- ps: dotnet pack -c Release -o artifacts 
+- ps: dotnet build -c Release -o kiss4webidsr4
+
+test_script:
+- ps: dotnet test
+
+#artifacts:
+#- path: artifacts\*.nupkg
+
+#deploy:
+#- provider: NuGet
+#  server: https://www.myget.org/F/domaindrivendev/api/v2
+#  on:
+#    branch: master
+#    appveyor_repo_tag: false
+#  api_key:
+#    secure: your_nuget_api_key
+#  skip_symbols: true
+
+#- provider: NuGet
+#  server: https://www.nuget.org/api/v2/package
+#  on:
+#    branch: master
+#    appveyor_repo_tag: true
+#  api_key:
+#    secure: your_nuget_api_key
+#  skip_symbols: true

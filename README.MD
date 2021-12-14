@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/p3iet9wrmg8jxlmx?svg=true)](https://ci.appveyor.com/project/ngnam/kiss4web-indentityserver)
+[![Build status](https://ci.appveyor.com/api/projects/status/mjvnap1mkhds82hu?svg=true)](https://ci.appveyor.com/project/ngnam/kiss4web-indentityserver)
 
 ## A sample project Idsr4 & minimal-API NET6 implementation for KISS Principle
 

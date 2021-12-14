@@ -10,6 +10,13 @@
 - A Client JS Authenticate with openIDClient [OpenID-passport](http://www.passportjs.org/packages/openid-client/)
 - idsr4database will store in a In-memory Database [In-memory Database](https://docs.microsoft.com/en-us/dotnet/standard/data/sqlite/in-memory-databases)
 - A generate repository pattern access to idsr4database
+- When you don't alway must register for every new service, I can use autofac to scan and register types. [Autofac](https://autofac.readthedocs.io/en/latest/register/scanning.html)
+- Which one to use Lifestyle [AddTransient - (lightweight, no-state), addScoped - state, addSingleton-reused everywhere](https://stackoverflow.com/questions/38138100/addtransient-addscoped-and-addsingleton-services-differences)
+- Register DI use [SimpleInjection](https://docs.simpleinjector.org/en/latest/quickstart.html)
+- Injecting service with different lifetimes into another
+	
+	+ Never inject Scoped & Transient services into Singleton service. (This effectively converts the transient or scoped service into the singleton.)
+	+ Never inject Transient services into scoped service (This converts the transient service into the scoped.)
 
 ### Conclusion
 Create A WebAPI helps to your applications Sign Sign On, Authentication with a OpenID service side or a OAuth 2.0 for providers local account và externals other.
